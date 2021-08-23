@@ -1,0 +1,31 @@
+body {
+    background-image: url('coffee.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+div.container {
+    width: 20%;
+    border-radius: 5px;
+    background-color: #F5F5DC;
+    padding: 125px;
+    left: 50%;
+    right: 50%;
+    top: 35%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 50px;
+  
+}
+

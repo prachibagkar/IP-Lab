@@ -1,0 +1,97 @@
+header {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(15, 13, 13);
+    padding: 10px;
+  background-color: rgb(241, 204, 35);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(238, 61, 61);}
+  25%  {background-color: rgb(214, 214, 29);}
+  50%  {background-color: rgb(15, 15, 196);}
+  100% {background-color: rgb(39, 167, 39);}
+}
+
+div.con {
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  top: 35%;
+  left: 1%;
+  position: absolute;
+  background-color: red;
+  position: relative;
+  animation-name: examples;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes examples {
+  0%   {background-color:rgb(224, 139, 42); left:0px; top:0px;}
+  25%  {background-color:rgb(183, 235, 42); left:200px; top:0px;}
+  50%  {background-color:rgb(48, 219, 241); left:200px; top:200px;}
+  75%  {background-color:rgb(47, 216, 47); left:0px; top:200px;}
+  100% {background-color:rgb(221, 90, 90); left:0px; top:0px;}
+}
+
+body{
+    background-color: #F5F5DC;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav-links li {
+    float: left;
+  }
+  
+  .nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  table {
+    top: 30%;
+    width:50%;
+    left: 25%;
+    position: absolute;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+
+th {
+  background-color: #e2ee8b;
+  color: rgb(8, 1, 1);
+}
